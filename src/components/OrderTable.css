@@ -1,0 +1,10 @@
+
+.order-table {
+    white-space: nowrap; 
+}
+@media (max-width: 767.98px) {
+    .order-table th:not(.mobile-visible),
+    .order-table td:not(.mobile-visible) {
+        display: none !important;
+    }
+}
